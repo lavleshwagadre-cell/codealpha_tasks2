@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lavlesh Wagadre — B.Tech CSE Student & Frontend Developer." />
+  <title>Lavlesh Wagadre // Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo"><span class="logo-bracket">&lt;</span>LW<span class="logo-bracket">/&gt;</span></a>
+      <nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#timeline">experience</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#certs">certs</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ============ HERO ============ -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <p class="terminal-line">$ whoami</p>
+      <h1 class="hero-greet">Hi, I'm <span class="accent">Lavlesh Wagadre.</span></h1>
+      <h2 class="hero-headline">
+        <span id="typewriter"></span><span class="cursor">_</span>
+      </h2>
+      <p class="hero-sub">Software devoloper.</p>
+      <div class="cta-group">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="resume.pdf" download class="btn btn-ghost">Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-glow" aria-hidden="true"></div>
+  </section>
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <strong>B.Tech Computer Science Engineering</strong> student with a strong interest in Frontend Development and modern web technologies.</p>
+          <p>I enjoy transforming ideas into interactive, responsive, and user-friendly web applications.</p>
+          <p>Always learning, always shipping, always curious.</p>
+        </div>
+        <div class="about-card">
+          <div class="terminal-window">
+            <div class="terminal-header"><span></span><span></span><span></span></div>
+            <pre class="terminal-body">
+<span class="t-comment">// status.json</span>
+{
+  <span class="t-key">"role"</span>: <span class="t-str">"Frontend Dev"</span>,
+  <span class="t-key">"focus"</span>: <span class="t-str">"CyberSec"</span>,
+  <span class="t-key">"learning"</span>: <span class="t-str">"Always"</span>,
+}</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">02.</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>&gt; Languages</h3>
+          <ul class="tag-list">
+            <li>C</li><li>C++</li><li>Java</li><li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>&gt; Security &amp; Tools</h3>
+          <ul class="tag-list">
+            <li>Github</li>
+            <li>Visual studio code</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>&gt; Core CSE</h3>
+          <ul class="tag-list">
+            <li>Operating Systems</li><li>DBMS</li><li>Data Structures &amp; Algorithms</li><li>Cyber Security</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ TIMELINE ============ -->
+  <section id="timeline" class="section reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">03.</span> Education &amp; Experience</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-content">
+            <span class="t-date">2023 — Present</span>
+            <h3>B.Tech, Computer Science Engineering</h3>
+            <p>Pursuing a degree focused on Systems, Algorithms, and Security fundamentals.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-content">
+            <span class="t-date">2025</span>
+            <h3>Capgemini Exceller AgentifAI Buildathon</h3>
+            <p>Participated in a hands-on AI agent buildathon — designing and shipping a working agent prototype within tight constraints.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-content">
+            <span class="t-date">2021 — 2023</span>
+            <h3>Higher Secondary Education</h3>
+            <p>Foundation in Science, Mathematics, and Computer fundamentals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">04.</span> Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <span class="folder">📁</span>
+            <a href="#" class="gh-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.1c-3.2.69-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.97.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 015.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.77 1.06.77 2.14v3.17c0 .31.21.66.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+            </a>
+          </div>
+          <h3>MEDDY: HyperLocal Medicine Delivery Platform
+</h3>
+          <p>A seamless digital ecosystem connecting patients, chemists, and delivery partners — making medicine access fast, simple, and accessible to everyone.
+.</p>
+          <ul class="tag-list small"><li>HTML</li><li>CSS</li><li>Java Script</li><li>Java springboot</li><li>Rest APLs</li><li>MY SQL</li></ul>
+        </article>
+        <article class="project-card">
+          <div class="project-top">
+            <span class="folder">📁</span>
+            <a href="#" class="gh-link" aria-label="GitHub"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.1c-3.2.69-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.97.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 015.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.77 1.06.77 2.14v3.17c0 .31.21.66.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg></a>
+          </div>
+          <h3>Wavely – Spotify Inspired Music Player</h3>
+          <p>Wavely is a modern and responsive music player web application inspired by Spotify. It allows users to play songs, search tracks, manage favorites, view recently played music, and switch between dark and light themes.</p>
+          <ul class="tag-list small"><li>HTML</li><li>CSS</li><li>Java Script</li></ul>
+        </article>
+  </section>
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section id="certs" class="section reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">05.</span> Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card" data-cert="nptel">
+          <div class="cert-badge">🏅</div>
+          <h3>NPTEL Elite Certification</h3>
+          <p>Big Data Computing</p>
+          <a href="C:\Users\Windows\Desktop\port\nptel-certificate.pdf" view certificate 
+          <span class="cert-view">Click to view →</span> </a>
+        </div>
+        <div class="cert-card" data-cert="nptel">
+          <h3>NPTEL Certification</h3>
+          <p>Cryptography and Network Security</p>
+          <a href="C:\Users\Windows\Desktop\port\nptel-certificate1.pdf"
+          <span class="cert-view">Click to view →</span> </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section reveal">
+    <div class="container contact-wrap">
+      <h2 class="section-title"><span class="section-num">06.</span> Contact</h2>
+      <p class="contact-lead">Have a project, an opportunity, or just want to say hi? My inbox is always open.</p>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="formStatus" class="form-status" role="status"></p>
+      </form>
+      <div class="social-links">
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" download>Resume.pdf</a>
+      </div>
+    </div>
+  </section>
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Lavlesh Wagadre — Built with semantic HTML, CSS &amp; vanilla JS.</p>
+    </div>
+  </footer>
+  <!-- ============ CERT MODAL ============ -->
+  <div class="modal" id="certModal" aria-hidden="true">
+    <div class="modal-overlay" data-close></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <h3 id="modalTitle">Certificate</h3>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
